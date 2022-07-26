@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primordium</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Inknut+Antiqua:wght@300&family=Meddon&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css"> <!must be in the head>
+    </head>
+    
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdown_click">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="topnav_right"><a href="#sign_up">Sign Up</a></li>
+                <li class="topnav_right"><a href="#sign_in">Sign In</a></li>
+                <li class="dropdown_icon"><a href="javascript:void(0);" onClick="dropdown_menu()">&#9776;</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container" id="section_1_gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="left-side-col">
+                        <h1 class="large_text">Welcome to Primordium!</h1>
+                    </div>
+                    <form>
+                        <div class="left-side-col">
+                            <h2>Username</h2>
+                            <input class="login_box" type="text" name="username" placeholder="Username">
+                            <h2>Password</h2>
+                            <input class="login_box" type="text" name="password" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <div class= "right-side-col">
+                        <div class="video_container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/JJ5x61IUFdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+        </div>
+        
+        <header>
+            <h1 class="section-2-header">Common questions about Primordium</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="box">          
+                            <div class="icon">
+                                <img src="LittleDragon.jpg">
+                            </div>
+                            <label>How is Primordium Played?</label>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="box">          
+                            <div class="icon">
+                                <img src="LittleDragon.jpg">
+                            </div>
+                            <label>What is the world of Primordium?</label>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="box">          
+                            <div class="icon">
+                                <img src="LittleDragon.jpg">
+                            </div>
+                            <label>What is Primordium?</label>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <button class="learn-more">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <article>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        </article>
+                    </div>
+                    <div class="col-5">
+                        <div class="fantasy-town">
+                            <img src="Fantasy%20Town%20Small.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <footer class="home-footer">
+            <div class="row">         
+                <div class="col-6 mobile-stack">
+                    <h1>Team</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Jobs</li>
+                    </ul>
+                </div>
+                <div class="col-6 mobile-stack">
+                    <h1>About</h1>
+                    <ul>
+                        <li>Founder</li>
+                        <li>History</li>
+                        <li>Future</li>
+                    </ul>
+                </div> 
+            </div>
+        </footer>
+        
+                
+            
+            
+<!--
+            <h2>This site is a fully functional game assistant for the Table-Top Game: Primordium</h2>
+        
+        
+        <div class="row">
+            <div class="col-3">
+                <img src="Wolf%20Logo.jpg" class="borderImg">
+            </div>
+            <div class="col-6">
+                <img src="Wolf%20Logo.jpg" class="borderImg">
+            </div>
+            <div class="col-3">
+                <img src="Wolf%20Logo.jpg" class="borderImg">
+            </div>
+        </div>
+        
+        
+            <hr>
+           
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            
+            <br>
+            <br>
+            
+                <button class="button">New Character</button>  <!Button to add character to DB>
+                <button class="button">Load Character</button>  <!Button to load character from DB>
+                <button class="button">GM Calculator</button>  <!Button to add enemy to DB> 
+            
+        <hr>           
+            
+        <h1>Contact us</h1>
+        <form>
+            <h3>Name: <input class="contact-form" type="text"></h3>
+            <h3>Email: <input class="contact-form" type="text"></h3>
+            <button class="button">SUBMIT</button>
+        </form>
+        <h2>**This is a test and is not to be viewed or used as a final version**</h2> <!Disclaimer message for bottom of page>
+-->
+        
+   
+    
+    
+    
+    <script>
+        function dropdown_menu() {
+            var x = document.getElementById("dropdown_click");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /* change topnav to topnav.responsive */
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+    </body>
+</html>
